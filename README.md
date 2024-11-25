@@ -4,4 +4,8 @@
 用MLP合成代替球谐函数的45维
 
 ## Notice
-目前还没有完成全部的，已经实现的是用MLP合成了3维的球谐
+目前已实现用MLP代替45维的球谐，产生结果是放在result里面的plt和pth，格式参考Compact GS,可以吧我们这里压缩好的放进Compact里面进行render
+
+环境配置也与Compact GS相同（主要就是tinycudann，gs都可以不装）
+
+https://github.com/maincold2/Compact-3DGS
