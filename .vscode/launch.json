@@ -8,6 +8,17 @@
             "name": "tinycudann",
             "type": "python",
             "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "pythonPath":"/home/zhaoyibin/anaconda3/envs/compact3dgs/bin/python",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "test",
+            "type": "python",
+            "request": "launch",
             "program": "${workspaceFolder}/test.py",
             "pythonPath":"/home/zhaoyibin/anaconda3/envs/compact3dgs/bin/python",
             "console": "integratedTerminal",
